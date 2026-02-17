@@ -9,39 +9,36 @@ A professional, end-to-end Machine Learning web application tailored for the **I
 
 ---
 
-## 🚀 Demo
-*(Optional: Add a link to your deployed app here, e.g., on Streamlit Cloud)*
-
-## 📂 Project Structure
+##  Project Structure
 ```text
 Iris-Flower-Prediction/
-├── app.py               # 📱 Main Streamlit application
-├── train_model.py       # 🧠 ML pipeline (Training & Saving Model)
-├── requirements.txt     # 📦 Project dependencies
-├── iris_model.joblib    # 🤖 Trained Model File
-├── feature_names.joblib # 📝 Feature Metadata
-├── target_names.joblib  # 🏷️ Target Class Metadata
-└── README.md            # 📄 Documentation
+├── app.py               #  Main Streamlit application
+├── train_model.py       #  ML pipeline (Training & Saving Model)
+├── requirements.txt     #  Project dependencies
+├── iris_model.joblib    #  Trained Model File
+├── feature_names.joblib #  Feature Metadata
+├── target_names.joblib  #  Target Class Metadata
+└── README.md            #  Documentation
 ```
 
-## ✨ Features
-- **🏠 Home Page**: Overview of the Iris dataset and project goals.
-- **📊 Prediction Page**: Real-time prediction with interactive sliders.
+##  Features
+- ** Home Page**: Overview of the Iris dataset and project goals.
+- ** Prediction Page**: Real-time prediction with interactive sliders.
   - **Confidence Scores**: Visual bar chart showing probability for each species.
   - **History Logging**: Tracks your recent predictions in the session.
-- **📈 Visualizations**:
+- ** Visualizations**:
   - Interactive Exploratory Data Analysis (EDA).
   - Feature distribution plots & Correlation heatmaps.
   - Feature Importance analysis from the Random Forest model.
-- **ℹ️ About**: Technical details and developer info.
+- **About**: Technical details and developer info.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Frontend**: [Streamlit](https://streamlit.io/)
 - **Machine Learning**: Scikit-Learn (Random Forest)
 - **Data Manipulation**: Pandas, NumPy
 - **Visualization**: Matplotlib, Seaborn
 
-## ⚡ How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the Repository
 ```bash
@@ -68,15 +65,11 @@ streamlit run app.py
 
 The app will open in your browser at `http://localhost:8501`.
 
-## 📦 Deployment
+## Deployment
 This app is ready for deployment on **Streamlit Cloud**:
 1. Push this code to a GitHub repository.
 2. Log in to [Streamlit Cloud](https://share.streamlit.io/).
 3. Connect your GitHub account and select your repository.
 4. Choose `app.py` as the main file and click **Deploy**.
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-## 📜 License
-This project is licensed under the MIT License.
